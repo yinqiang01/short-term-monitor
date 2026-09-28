@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-28 14:46",
+  "limit_up": 30,
+  "limit_down": 54,
+  "max_height": 5,
+  "up_count": 0,
+  "down_count": 0,
+  "up_down_ratio": 0,
+  "alert_count": 2,
+  "alerts": [
+    {
+      "level": "danger",
+      "type": "market_panic",
+      "title": "市场恐慌预警",
+      "message": "跌停家数达 56 家，超过阈值 20 家，市场恐慌情绪蔓延，建议降低仓位。"
+    },
+    {
+      "level": "warning",
+      "type": "weak_market",
+      "title": "市场偏弱预警",
+      "message": "涨跌停比 30:56，多头力量不足，市场偏弱，谨慎操作。"
+    }
+  ]
+}

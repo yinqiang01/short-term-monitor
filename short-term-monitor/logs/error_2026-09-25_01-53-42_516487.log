@@ -1,0 +1,2 @@
+2026-09-25 15:10:00 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-25 16:00:00 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?

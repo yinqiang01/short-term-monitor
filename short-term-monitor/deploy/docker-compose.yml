@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+  short-term-monitor:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: short-term-monitor
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - FEISHU_WEBHOOK_URL=${FEISHU_WEBHOOK_URL:-}
+      - FEISHU_SECRET=${FEISHU_SECRET:-}
+      - ENABLE_FEISHU_NOTIFY=${ENABLE_FEISHU_NOTIFY:-true}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../logs:/app/logs
+      - ../data:/app/data
+      - ../config/config.yaml:/app/config/config.yaml:ro
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2G

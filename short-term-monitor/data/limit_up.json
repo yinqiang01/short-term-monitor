@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-28",
+  "count": 33,
+  "limit_down": 55,
+  "max_height": 5,
+  "leaders": [
+    {
+      "code": "600825",
+      "name": "新华传媒",
+      "boards": 5,
+      "seal": 0.0,
+      "change_pct": 10.038609504699707,
+      "turnover": 0.48115605115890503,
+      "industry": "出版"
+    },
+    {
+      "code": "603396",
+      "name": "金辰股份",
+      "boards": 3,
+      "seal": 0.0,
+      "change_pct": 9.988776206970215,
+      "turnover": 16.9720458984375,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "603949",
+      "name": "雪龙集团",
+      "boards": 3,
+      "seal": 0.0,
+      "change_pct": 10.0,
+      "turnover": 7.795499324798584,
+      "industry": "汽车零部"
+    },
+    {
+      "code": "600802",
+      "name": "福建水泥",
+      "boards": 3,
+      "seal": 0.0,
+      "change_pct": 9.969788551330566,
+      "turnover": 18.692119598388672,
+      "industry": "水泥"
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
+      "boards": 2,
+      "seal": 0.0,
+      "change_pct": 10.020661354064941,
+      "turnover": 7.612004280090332,
+      "industry": "汽车零部"
+    },
+    {
+      "code": "601218",
+      "name": "吉鑫科技",
+      "boards": 2,
+      "seal": 0.0,
+      "change_pct": 10.0,
+      "turnover": 27.325937271118164,
+      "industry": "风电设备"
+    },
+    {
+      "code": "603278",
+      "name": "大业股份",
+      "boards": 2,
+      "seal": 0.0,
+      "change_pct": 10.0,
+      "turnover": 18.89409637451172,
+      "industry": "通用设备"
+    },
+    {
+      "code": "001330",
+      "name": "博纳影业",
+      "boards": 1,
+      "seal": 0.0,
+      "change_pct": 10.034602165222168,
+      "turnover": 3.529749631881714,
+      "industry": "影视院线"
+    },
+    {
+      "code": "601579",
+      "name": "会稽山",
+      "boards": 1,
+      "seal": 0.0,
+      "change_pct": 9.989484786987305,
+      "turnover": 11.245000839233398,
+      "industry": "非白酒"
+    },
+    {
+      "code": "002640",
+      "name": "跨境通",
+      "boards": 1,
+      "seal": 0.0,
+      "change_pct": 10.0,
+      "turnover": 17.28204345703125,
+      "industry": "互联网电"
+    }
+  ],
+  "seal_quality": {
+    "strong": 0,
+    "medium": 0,
+    "weak": 0
+  },
+  "board_distribution": {
+    "1": 26,
+    "2": 3,
+    "3": 3,
+    "5": 1
+  }
+}

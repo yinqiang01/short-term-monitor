@@ -1,0 +1,94 @@
+# 短线选股监控系统主配置
+system:
+  name: "Short-Term Monitor"
+  version: "1.0.0"
+  timezone: "Asia/Shanghai"
+  data_dir: "./data"
+  log_dir: "./logs"
+
+# 飞书通知
+feishu:
+  enabled: true
+  webhook_url: "${FEISHU_WEBHOOK_URL}"
+  secret: "${FEISHU_SECRET}"
+  notify_on:
+    - news_alert        # 新闻异动
+    - limit_up_alert    # 涨停板异动
+    - dragon2_alert     # 龙二选股结果
+    - capital_alert     # 资金异动
+    - chip_alert        # 筹码异动
+    - risk_alert        # 风险预警
+    - watchlist_alert   # 自选股异动
+    - daily_summary     # 每日总结
+
+# 监控模块开关
+monitor:
+  news:
+    enabled: true
+    check_interval: 300      # 5分钟
+    keywords:                 # 关注关键词
+      - 政策
+      - 利好
+      - 重组
+      - 收购
+      - 订单
+      - 涨价
+      - 突破
+      - 战略合作
+    excluded_keywords:
+      - 退市
+      - 处罚
+      - 违规
+      - 亏损
+
+  limit_up:
+    enabled: true
+    check_time: "15:10"
+    min_seal_amount: 50000000   # 最小封单金额5000万
+    max_board_height: 10          # 最高连板数（超过则不追）
+
+  dragon2:
+    enabled: true
+    run_time: "15:30"
+    max_market_cap: 10000000000  # 龙二最大市值100亿
+    max_gain_ratio: 0.5            # 涨幅小于龙头50%
+    min_volume_ratio: 1.2           # 最低量比
+
+  capital_flow:
+    enabled: true
+    check_interval: 600
+    main_inflow_threshold: 50000000   # 主力净流入阈值5000万
+    north_inflow_threshold: 100000000  # 北向净流入阈值1亿
+    big_order_ratio_threshold: 0.3      # 大单占比阈值30%
+
+  chip:
+    enabled: true
+    profit_ratio_min: 0.6      # 最低获利比例60%
+    profit_ratio_max: 0.95     # 最高获利比例95%
+    concentration_max: 0.15     # 最大筹码集中度15%
+
+  risk:
+    enabled: true
+    market_emotion_threshold: 80    # 涨停超80家=过热
+    limit_down_threshold: 20         # 跌停超20家=恐慌
+    max_position_per_stock: 0.20
+    stop_loss_pct: 0.07
+
+# 自选股
+watchlist:
+  stocks: []                    # 如 ["600519.SH", "000001.SZ"]
+  alert_change_pct: 5.0         # 涨跌幅超5%告警
+  alert_volume_ratio: 2.0        # 量比超2告警
+
+# Web服务
+web:
+  host: "0.0.0.0"
+  port: 8080
+  debug: false
+
+# 日志
+logging:
+  level: "INFO"
+  file: "monitor_{time}.log"
+  rotation: "00:00"
+  retention: "30 days"

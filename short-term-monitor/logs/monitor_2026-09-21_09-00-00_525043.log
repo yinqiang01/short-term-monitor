@@ -1,0 +1,47 @@
+2026-09-21 09:00:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 09:10:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 09:20:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 09:30:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 09:40:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 09:50:10 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:00:03 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:10:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:20:01 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:30:04 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:40:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 10:50:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:00:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:10:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:20:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:30:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:30:40 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 11:40:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 11:45:24 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 11:50:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 12:00:22 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 12:15:21 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 12:30:22 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 12:45:21 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 13:00:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 13:00:22 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 13:10:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 13:20:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 13:30:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 13:30:44 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 13:40:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 13:45:22 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 13:50:02 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:00:12 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:00:31 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 14:10:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:15:41 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 14:20:02 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:30:07 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:30:30 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 14:40:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 14:45:55 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 14:50:00 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-21 15:10:00 | INFO     | src.monitor.limit_up_monitor:analyze:46 - 涨停板分析: 103家涨停, 最高5板
+2026-09-21 15:10:00 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 16:00:00 | ERROR    | src.notification.feishu_bot:send_interactive_card:143 - 飞书卡片通知异常: Invalid URL '${FEISHU_WEBHOOK_URL}': No scheme supplied. Perhaps you meant https://${FEISHU_WEBHOOK_URL}?
+2026-09-21 16:00:00 | INFO     | src.scheduler.monitor_scheduler:_daily_summary:235 - 每日总结已发送

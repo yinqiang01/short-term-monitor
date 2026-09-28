@@ -1,0 +1,15 @@
+2026-09-19 09:24:29 | INFO     | __main__:main:33 - ============================================================
+2026-09-19 09:24:29 | INFO     | __main__:main:34 - 短线选股监控系统 v1.0.0 启动
+2026-09-19 09:24:29 | INFO     | __main__:main:35 - ============================================================
+2026-09-19 09:24:29 | INFO     | __main__:main:51 - 模式：监控 + Web面板
+2026-09-19 09:24:30 | INFO     | src.data.data_fetcher:_init_akshare:22 - akshare 初始化成功
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:start:51 - ============================================================
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:start:52 - 短线选股监控系统启动
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:start:53 - 飞书通知: 开启
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:start:54 - 自选股: 无
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:start:55 - ============================================================
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:_register_jobs:133 - 定时任务注册完成
+2026-09-19 09:24:30 | INFO     | src.web.app:run_web:125 - Web Dashboard 启动: http://0.0.0.0:8080
+2026-09-19 09:24:30 | INFO     | src.scheduler.monitor_scheduler:_full_check:241 - 执行启动全量检查...
+2026-09-19 09:24:53 | INFO     | src.monitor.capital_flow:check:85 - 资金流向检查完成: 净流入0只, 热门板块0个, 北向0.00亿
+2026-09-19 09:24:53 | INFO     | src.scheduler.monitor_scheduler:start:64 - 监控调度器已启动，按 Ctrl+C 停止
